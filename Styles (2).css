@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('bg.jpg');
+    background-size: cover; /* Adjust how the background image is sized */
+    background-position: center; /* Adjust the position of the background image */
+    padding: 30px;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.introduction {
+    background-color: #f0f0f0;
+    margin: 20px;
+    padding: 20px;
+}
+
+#slideshow {
+    height: 100vh; /* Set slideshow height to fill the viewport height */
+    overflow-y: auto; /* Enable vertical scrolling if necessary */
+}
+
+#slideshow img {
+    display: block; /* Make images block-level elements */
+    width: auto; /* Auto-adjust width to maintain aspect ratio */
+    max-width: 100%; /* Ensure images don't exceed the container width */
+    height: auto; /* Auto-adjust height to maintain aspect ratio */
+}
